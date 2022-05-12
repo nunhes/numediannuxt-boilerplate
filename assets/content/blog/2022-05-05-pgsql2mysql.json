@@ -1,0 +1,14 @@
+{
+  "title": "Intro",
+  "date": "2022-02-02T06:00:00.000Z",
+  "description": "Sobre XML",
+  "body": "
+  ## Migrar pgsql a mysql sen axuda externa\n\nSe non queres ou non podes usas unha ferramenta de migración, e só precisas migrar os datos, hai un modo simple para exportar os datos en formato CSV desde PostgreSQL e logo importalos en MySQL, iso podes facelo cuns poucos comandos coma:\n\n**EN Postgres (Exportar):**\n\n```sql
+  COPY (SELECT query) TO '/path to csv file -*.csv'; 
+  ```\n\n**EN Mysql (Importar):**\n\n```sql
+  load data infile 'path to csv file-*.csv' into table tablename fields terminated by ',' lines terminated by '\n' . ```\n\nSe queres continuar coa ferramenta de envorcado (``pg_dump``), podes engadir estas opcións para producir un arquivo de envorcado que MySQL poida entender mellor :
+  \n\n```sql
+  -d --data-only --no-owner --no-acl --attribute-inserts --disable-dollar-quoting --no-tablespaces
+  ```\n\nTer en conta que, dependendo da estrutura da base de datos de orixe, podes ter que manipular o arquivo de envorcado para permitir que MysQL entenda o arquivo de envorcado xerado...\n\n_ref.: [aleroot
+  ](https: //stackoverflow.com/users/330280/aleroot) en https://stackoverflow.com/questions/10462044/populate-mysql-database-from-postgresql-dump-file \n\n"
+}
