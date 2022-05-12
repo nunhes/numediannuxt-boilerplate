@@ -1,6 +1,6 @@
 {
   "title": "Intro",
-  "date": "2022-02-02T06:00:00.000Z",
+  "date": "2022-05-05T06:00:00.000Z",
   "description": "Sobre XML",
   "body": "
   ## Migrar pgsql a mysql sen axuda externa\n\nSe non queres ou non podes usas unha ferramenta de migración, e só precisas migrar os datos, hai un modo simple para exportar os datos en formato CSV desde PostgreSQL e logo importalos en MySQL, iso podes facelo cuns poucos comandos coma:\n\n**EN Postgres (Exportar):**\n\n```sql
