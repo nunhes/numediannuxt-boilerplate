@@ -2,10 +2,7 @@
   "title": "Intro",
   "date": "2022-05-09T06:00:00.000Z",
   "description": "Sobre XML",
-  "body": "##Basic Task List
-[TOC]
-
-## [Introdución](https://laravel.com/docs/5.1/quickstart#introduction)
+  "body": "##Basic Task List\n\n[TOC]\n\n## [Introdución](https://laravel.com/docs/5.1/quickstart#introduction)
 
 Nesta guía de inicio rápido se ofrece unha introdución básica ao framework Laravel e inclúe contido sobre **migracións de bases de datos, Eloquent ORM, enrutamento, validación, vistas e modelos Blade**. Este é un excelente punto de partida se es novo no framework Laravel ou PHP en xeral. Se xa utilizaches Laravel ou outros frameworks PHP, podes consultar un dos nosos inicios rápidos - *quickstart*- máis avanzados. Para mostrar unha selección básica de funcións de Laravel, **crearemos unha lista de tarefas sinxela que podemos usar para rastrexar todas as tarefas que queremos realizar** (o típico exemplo de "lista de tarefas"). O código fonte completo e rematado deste proxecto está dispoñible en GitHub](http://github.com/laravel/quickstart-basic).
 
